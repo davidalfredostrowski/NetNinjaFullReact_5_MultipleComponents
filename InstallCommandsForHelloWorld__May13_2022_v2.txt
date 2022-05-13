@@ -1,0 +1,26 @@
+1  ls
+    2  curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+    3  sudo bash nodesource_setup.sh
+    4  sudo apt-get update
+    5  sudo apt install nodejs
+    6  sudo apt install nodejs build-essential
+    7  node --version
+    8  mkdir ~/graphbook
+    9  cd ~/graphbook
+   10  npm init
+   11  history
+   12  mkdir public
+   13  cd public
+   14  vi index.html
+   15  cd ..
+   16  npm install --save react react-dom
+   17  npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-react clean-webpack-plugin css-loader file-loader html-webpack-plugin style-loader url-loader webpack webpack-cli webpack-dev-server
+   18  ls
+   19  vi webpack.client.config.js
+   21  vi .babelrc
+   22  vi package.json
+   26  mkdir -p src/client
+   27  cd src/client
+   28  touch index.js
+   29  vi index.js
+   30  vi App.js

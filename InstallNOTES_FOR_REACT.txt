@@ -1,0 +1,14 @@
+ npm init
+  745  npm install --save rect react-dom
+  746  ls
+  747  cd client
+  748  mkdir public
+  749  ls
+  750  cd public
+  751  touch index.html
+  752  vi index.html
+  753  jls
+  754  ls
+  755  cd ..
+ 758  npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-react clean-webpack-plugin css-loader file-loader  html-webpack-plugin style-loader url-loader webpack webpack-cli webpack-dev-server
+  759  history
